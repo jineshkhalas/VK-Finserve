@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VK FinCorp - Your Partner in Wealth</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <a href="#" id="home-link" class="logo">
+                VK FinCorp
+            </a>
+            <button id="menu-button" class="menu-button">
+                <svg class="menu-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7">
+                    </path>
+                </svg>
+            </button>
+            <div id="nav-menu" class="nav-menu">
+                <a href="#home" class="nav-link" id="home-nav">Home</a>
+                <div class="dropdown">
+                    <button class="dropbtn">
+                        Services
+                        <svg class="dropdown-arrow" fill="none" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7">
+                            </path>
+                        </svg>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="#mutual-funds" class="nav-link" data-service="Mutual Funds">Mutual Funds</a>
+                        <a href="#equity-broking" class="nav-link" data-service="Equity Broking">Equity Broking</a>
+                        <a href="#commodity-broking" class="nav-link" data-service="Commodity Broking">Commodity
+                            Broking</a>
+                        <a href="#pms" class="nav-link" data-service="PMS - Portfolio Management Service">
+                            Portfolio Management  (PMS)</a>
+                        <a href="#aif" class="nav-link" data-service="AIF - Alternative Investment Fund">
+                            Alternative Investment Fund (AIF)</a>
+                        <a href="#structured-products" class="nav-link"
+                            data-service="Structured Products (Equity and Gold based)">Structured Products (Equity and
+                            Gold based)</a>
+                        <a href="#fixed-income" class="nav-link" data-service="Fixed Income">Fixed Income</a>
+                        <a href="#life-insurance" class="nav-link" data-service="Life Insurance">Life Insurance</a>
+                        <a href="#health-insurance" class="nav-link" data-service="Health Insurance">Health
+                            Insurance</a>
+                        <a href="#loan-against-securities" class="nav-link"
+                            data-service="Loan against Securities (LAS)">Loan against Securities</a>
+                        <a href="#housing-loans" class="nav-link" data-service="Housing Loans">Housing Loans</a>
+                    </div>
+                </div>
+                <a href="#contact-us-section" class="nav-link" id="home-nav">Contact Us</a>
+            </div>
+        </nav>
+    </header>
+
+    <main id="content-area" class="main-content-area">
+        <section id="home-page-section" class="page-section">
+            <div class="hero-section text-center margin-bottom-large">
+                <h1 class="hero-title">
+                    Empowering Your Financial Future
+                </h1>
+                <p class="hero-subtitle">
+                    Your trusted partner for smart investments, comprehensive protection, and sustainable wealth growth.
+                </p>
+                <div class="hero-buttons-container">
+                    <a href="#services" id="explore-services-btn" class="btn-primary">Explore Services</a>
+                    <a href="#contact-us-section" class="btn-secondary">Contact Us</a>
+                </div>
+            </div>
+
+            <div class="section-card margin-bottom-large">
+                <h2 class="section-title">Why Choose VK?</h2>
+                <div class="feature-grid">
+                    <div class="feature-item" id="Expert-Advice">
+                        <div class="feature-icon">💡</div>
+                        <h3 class="feature-heading">Expert Guidance</h3>
+                        <p class="feature-description">Benefit from our seasoned financial experts who provide
+                            personalized advice tailored to your goals.</p>
+                    </div>
+                    <div class="feature-item" id="Secure-Transperant">
+                        <div class="feature-icon">🔒</div>
+                        <h3 class="feature-heading">Secure & Transparent</h3>
+                        <p class="feature-description">Your investments are safe with us. We ensure complete
+                            transparency in all our dealings.</p>
+                    </div>
+                    <div class="feature-item" id="Solutions">
+                        <div class="feature-icon">🚀</div>
+                        <h3 class="feature-heading">Innovative Solutions</h3>
+                        <p class="feature-description">Access a wide range of cutting-edge financial products designed
+                            for modern investors.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="services" class="section-padding">
+                <h2 class="section-title">Our Core Services</h2>
+                <div id="service-cards-container" class="service-cards-grid">
+                    <a href="#mutual-funds" class="service-card service-link" data-service="Mutual Funds">
+                        <div class="service-card-icon">📈</div>
+                        <h3>Mutual Funds</h3>
+                        <p>Smart investment for a better future</p>
+                    </a>
+                    <a href="#equity-broking" class="service-card service-link" data-service="Equity Broking">
+                        <div class="service-card-icon">📊</div>
+                        <h3>Equity Broking</h3>
+                        <p>Invest at your choice with expert advice</p>
+                    </a>
+                    <a href="#commodity-broking" class="service-card service-link" data-service="Commodity Broking">
+                        <div class="service-card-icon">⛏️</div>
+                        <h3>Commodity Broking</h3>
+                        <p>Hedge/Trade in various commodities</p>
+                    </a>
+                    <a href="#pms" class="service-card service-link" data-service="PMS - Portfolio Management Service">
+                        <div class="service-card-icon">💼</div>
+                        <h3>Portfolio Management Service (PMS)</h3>
+                        <p>Expertly managed - exceptional returns</p>
+                    </a>
+                    <a href="#aif" class="service-card service-link" data-service="AIF - Alternative Investment Fund">
+                        <div class="service-card-icon">💡</div>
+                        <h3>Alternative Investment Fund (AIF)</h3>
+                        <p>Beyond traditional investments</p>
+                    </a>
+                    <a href="#structured-products" class="service-card service-link"
+                        data-service="Structured Products (Equity and Gold based)">
+                        <div class="service-card-icon">🔗</div>
+                        <h3>Structured Products (Equity and Gold based)</h3>
+                        <p>Tailored investment for your financial goals</p>
+                    </a>
+                    <a href="#fixed-income" class="service-card service-link" data-service="Fixed Income">
+                        <div class="service-card-icon">💰</div>
+                        <h3>Fixed Income</h3>
+                        <p>Fixed income for cautious investors</p>
+                    </a>
+                    <a href="#life-insurance" class="service-card service-link" data-service="Life Insurance">
+                        <div class="service-card-icon">❤️</div>
+                        <h3>Life Insurance</h3>
+                        <p>Protect your loved ones with life insurance</p>
+                    </a>
+                    <a href="#health-insurance" class="service-card service-link" data-service="Health Insurance">
+                        <div class="service-card-icon">🏥</div>
+                        <h3>Health Insurance</h3>
+                        <p>All-around protection for you and your family</p>
+                    </a>
+                    <a href="#loan-against-securities" class="service-card service-link"
+                        data-service="Loan against Securities (LAS)">
+                        <div class="service-card-icon">🤝</div>
+                        <h3>Loan against Securities (LAS)</h3>
+                        <p>Unlock the value of your investments</p>
+                    </a>
+                    <a href="#housing-loans" class="service-card service-link" data-service="Housing Loans">
+                        <div class="service-card-icon">🏠</div>
+                        <h3>Housing Loans</h3>
+                        <p>Your dream home is now within reach</p>
+                    </a>
+                </div>
+            </div>
+
+            <div class="section-padding testimonial-section-bg section-card">
+                <h2 class="section-title">What Our Clients Say</h2>
+                <div class="testimonial-grid">
+                    <div class="testimonial-card">
+                        <p>"VK FinCorp transformed my investment journey. Their expert advice and diverse portfolio options
+                            helped me achieve my financial goals faster than I expected."</p>
+                        <p class="testimonial-author">- Priya Sharma</p>
+                    </div>
+                    <div class="testimonial-card">
+                        <p>"Services is incredibly supportive and knowledgeable. I feel secure knowing my
+                            family's future is protected with their life insurance plans."</p>
+                        <p class="testimonial-author">- Rajesh Kumar</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="contact-us-section" class="section-padding">
+                <div class="contact-message-grid">
+                    <div class="contact-info-card section-card">
+                        <h2 class="section-title">Contact Us</h2>
+                        <p class="contact-detail"><strong>Phone:</strong> +91 9824047340</p>
+                        <p class="contact-detail"><strong>Email:</strong> vijaykhalas@yahoo.co.in</p>
+                        <p class="contact-detail"><strong>Address:</strong> 105 Shri Ram Complex, Opp. Nilkanth Mahadev Temple, Nr. Sardar Chowk, Krishnanagar 382345.</p>
+                    </div>
+
+                    <div class="message-us-card section-card">
+                        <h2 class="section-title">Message Us</h2>
+                        <form class="message-form" method="POST">
+                            <div class="form-group">
+                                <label for="fullName">Full Name</label>
+                                <input type="text" id="fullName" name="fullName" placeholder="Your Full Name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phoneNumber">Phone Number</label>
+                                <input type="tel" id="phoneNumber" name="phoneNumber" placeholder="Your Phone Number"
+                                    required>
+                            </div>
+                            <div class="form-group">
+                                <label for="enquiryMessage">Service Needed / Enquiry Message</label>
+                                <textarea id="enquiryMessage" name="enquiryMessage" rows="5"
+                                    placeholder="Tell us about your needs or enquiry..." required></textarea>
+                            </div>
+                            <button type="submit" class="btn-primary">Send Message</button>
+                        </form>
+                        <div id="form-message" class="hidden success-message text-center margin-top-large"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="service-detail-section" class="hidden page-section service-detail-page-card">
+            <h2 id="service-detail-title" class="service-detail-heading">
+                <span id="service-detail-icon" class="service-detail-icon"></span> <span
+                    id="service-detail-name"></span>
+            </h2>
+            <p id="service-detail-tagline" class="service-detail-tagline"></p>
+
+            <div class="margin-bottom-large">
+                <h3 class="sub-heading">What We Offer:</h3>
+                <ul id="service-detail-description" class="list-styled">
+                </ul>
+            </div>
+
+            <div class="key-benefits-box">
+                <h3 class="sub-heading-green">Key Benefits:</h3>
+                <ul id="service-detail-benefits" class="list-styled-green">
+                </ul>
+            </div>
+
+            <div id="service-detail-investment-info" class="investment-info-box hidden">
+                <h3 class="sub-heading-indigo">Investment Details:</h3>
+                <p id="service-detail-investment-text" class="investment-info-text"></p>
+            </div>
+
+            <div class="text-center margin-top-large">
+                <a href="#" class="btn-primary" id="Consultation">Get a Free Consultation</a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3 class="footer-heading">VK FinCorp</h3>
+                    <p>Your trusted partner for smart investments, comprehensive protection, and sustainable wealth
+                        growth.</p>
+                </div>
+                <div class="footer-col">
+                    <h3 class="footer-heading">Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html" class="footer-link">Home</a></li>
+                        <li><a href="#services" class="footer-link">Services</a></li>
+                        <li><a href="#contact-us-section" class="footer-link">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3 class="footer-heading">Contact Us</h3>
+                    <p class="footer-contact-detail"><strong>Phone:</strong> +91 9824047340</p>
+                    <p class="footer-contact-detail"><strong>Email:</strong> vijaykhalas@yahoo.co.in</p>
+                    <p class="footer-contact-detail"><strong>Address:</strong> 105 Shri Ram Complex, Opp. Nilkanth Mahadev Temple, Nr. Sardar Chowk, Krishnanagar 382345.</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="footer-disclaimer">Disclaimer: Investment in securities market are subject to market risks,
+                    read all the related documents carefully before investing.
+                </p>
+                <p style="color: #a7a7a8;">&copy; 2025 VK FinCorp. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
