@@ -158,7 +158,6 @@ const servicesData = {
         benefits: [
             "Achieve your homeownership goals.",
             "Tax benefits on principal and interest payments.",
-            "Build equity over time.",
             "Expert assistance in choosing the right loan product."
         ]
     }
