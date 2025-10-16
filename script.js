@@ -420,3 +420,18 @@ messageForm.addEventListener('submit', async (e) => {
         submitButton.textContent = 'Send Message';
     }
 });
+
+// Function to copy phone number when clicked
+function copyNumber() {
+    const phoneNumber = "+91-1234567890"; // <-- put your number here
+
+    // Copy to clipboard
+    navigator.clipboard.writeText(phoneNumber).then(() => {
+        // Show simple popup
+        alert("Number copied! ✅\n" + phoneNumber);
+    }).catch(err => {
+        alert("Failed to copy number");
+        console.error(err);
+    });
+}
+
