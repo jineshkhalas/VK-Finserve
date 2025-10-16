@@ -423,7 +423,7 @@ messageForm.addEventListener('submit', async (e) => {
 
 // Function to copy phone number when clicked
 function copyNumber() {
-    const phoneNumber = "+91-1234567890"; // <-- put your number here
+    const phoneNumber = "+91 9824047340"; // <-- put your number here
 
     // Copy to clipboard
     navigator.clipboard.writeText(phoneNumber).then(() => {
